@@ -1,7 +1,6 @@
 /.buildpath
 /.project
 /.settings/
-/Configuration/
 /Packages/
 /Readme.txt
 /Upgrading.txt
@@ -10,3 +9,6 @@
 /composer.lock
 /flow
 /flow.bat
+/Build/
+/Data/
+/Configuration/
