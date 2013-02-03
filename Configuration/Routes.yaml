@@ -16,6 +16,9 @@
 -
   name: 'Chantrea Training'
   uriPattern: '<ChantreaTrainingSubroutes>'
+  defaults:
+    '@package': 'Chantrea.Training'
+    '@format':  'html'
   subRoutes:
     ChantreaTrainingSubroutes:
       package: Chantrea.Training
