@@ -1,0 +1,34 @@
+#                                                                        #
+# Routes configuration                                                   #
+#                                                                        #
+# This file contains the configuration for the MVC router.               #
+# Just add your own modifications as necessary.                          #
+#                                                                        #
+# Please refer to the Flow manual for possible configuration options.   #
+#                                                                        #
+
+##
+# Subroutes from the Chantrea.Training package.
+#
+# If the package "Chantrea.Training" is installed, its fallback route will point to the
+# starting point screen.
+
+-
+  name: 'Chantrea Training'
+  uriPattern: '<ChantreaTrainingSubroutes>'
+  subRoutes:
+    ChantreaTrainingSubroutes:
+      package: Chantrea.Training
+
+##
+# Flow subroutes
+#
+
+-
+  name: 'Flow'
+  uriPattern: '<FlowSubroutes>'
+  defaults:
+    '@format': 'html'
+  subRoutes:
+    FlowSubroutes:
+      package: TYPO3.Flow
