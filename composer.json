@@ -8,7 +8,8 @@
     },
     "require": {
         "typo3/flow": "dev-master",
-        "chantrea/training": "dev-master"
+        "chantrea/training": "dev-master",
+        "typo3/twitter-bootstrap": "dev-master"
     },
     "require-dev": {
         "typo3/kickstart": "dev-master",
