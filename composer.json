@@ -8,12 +8,11 @@
     },
     "require": {
         "typo3/flow": "dev-master",
-
+        "typo3/fluid": "@dev",
         "typo3/party": "@dev",
         "doctrine/migrations": "@dev",
-
-        "chantrea/training": "dev-master",
-        "typo3/twitter-bootstrap": "dev-master"
+        "typo3/twitter-bootstrap": "dev-master",
+        "chantrea/training": "dev-master"
     },
     "require-dev": {
         "typo3/kickstart": "dev-master",
