@@ -12,6 +12,7 @@
         "typo3/party": "@dev",
         "doctrine/migrations": "@dev",
         "typo3/twitter-bootstrap": "dev-master",
+        "typo3/swiftmailer": "dev-master",
         "chantrea/training": "dev-master"
     },
     "require-dev": {

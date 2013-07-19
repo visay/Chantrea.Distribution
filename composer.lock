@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "e5592599debffcd16ad862d230eb4c1d",
+    "hash": "b3a61b878537052a1e71dac29764167e",
     "packages": [
         {
             "name": "chantrea/training",
@@ -11,12 +11,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/visay/Chantrea.Training.git",
-                "reference": "57825efcae76fd023f45031ae26483f32f07aada"
+                "reference": "220e5d6dac7d357cb2edc5d692f7a4341bb14695"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/visay/Chantrea.Training/zipball/57825efcae76fd023f45031ae26483f32f07aada",
-                "reference": "57825efcae76fd023f45031ae26483f32f07aada",
+                "url": "https://api.github.com/repos/visay/Chantrea.Training/zipball/220e5d6dac7d357cb2edc5d692f7a4341bb14695",
+                "reference": "220e5d6dac7d357cb2edc5d692f7a4341bb14695",
                 "shasum": ""
             },
             "require": {
@@ -51,7 +51,7 @@
             ],
             "description": "TYPO3 Flow application to suggest topic, vote and plan a training.",
             "homepage": "http://www.visay.info",
-            "time": "2013-07-15 14:46:40"
+            "time": "2013-07-19 17:37:55"
         },
         {
             "name": "composer/installers",
@@ -383,24 +383,24 @@
         },
         {
             "name": "symfony/console",
-            "version": "v2.3.1",
+            "version": "v2.3.2",
             "target-dir": "Symfony/Component/Console",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Console.git",
-                "reference": "v2.3.1"
+                "reference": "v2.3.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Console/zipball/v2.3.1",
-                "reference": "v2.3.1",
+                "url": "https://api.github.com/repos/symfony/Console/zipball/v2.3.2",
+                "reference": "v2.3.2",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
             "require-dev": {
-                "symfony/event-dispatcher": ">=2.1,<3.0"
+                "symfony/event-dispatcher": "~2.1"
             },
             "suggest": {
                 "symfony/event-dispatcher": ""
@@ -432,7 +432,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "http://symfony.com",
-            "time": "2013-06-11 07:15:14"
+            "time": "2013-07-11 19:36:36"
         },
         {
             "name": "symfony/dom-crawler",
@@ -535,7 +535,7 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/Packages/TYPO3.Flow.git",
-                "reference": "134ec3b90b09461d76242edd5cf095b765af8317"
+                "reference": "866a3a97afe1fdfaefa021b6f50a27203532da90"
             },
             "require": {
                 "composer/installers": "~1.0.2",
@@ -566,7 +566,7 @@
             ],
             "description": "TYPO3 Flow Application Framework",
             "homepage": "http://flow.typo3.org",
-            "time": "2013-07-16 20:15:38"
+            "time": "2013-07-19 13:24:10"
         },
         {
             "name": "typo3/fluid",
@@ -615,6 +615,33 @@
             ],
             "description": "A PHP implementation of the OASIS Customer Information Quality (CIQ) XML Standard.",
             "time": "2013-05-16 17:13:18"
+        },
+        {
+            "name": "typo3/swiftmailer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git://git.typo3.org/Packages/TYPO3.SwiftMailer.git",
+                "reference": "6537ea19ea4b7a17fa727fd96d83f6ce4993337d"
+            },
+            "require": {
+                "typo3/flow": "*"
+            },
+            "provide": {
+                "swiftmailer/swiftmailer": "4.1.5"
+            },
+            "type": "typo3-flow-package",
+            "autoload": {
+                "psr-0": {
+                    "TYPO3\\SwiftMailer": "Classes"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "description": "A TYPO3 Flow package of SwiftMailer",
+            "time": "2013-05-03 10:11:04"
         },
         {
             "name": "typo3/twitter-bootstrap",
@@ -726,6 +753,7 @@
         "typo3/party": 20,
         "doctrine/migrations": 20,
         "typo3/twitter-bootstrap": 20,
+        "typo3/swiftmailer": 20,
         "chantrea/training": 20,
         "typo3/kickstart": 20,
         "typo3/buildessentials": 20
