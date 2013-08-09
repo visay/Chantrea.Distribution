@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "b3a61b878537052a1e71dac29764167e",
+    "hash": "10b8ee030bd6fe88aace97e6ca77978b",
     "packages": [
         {
             "name": "chantrea/training",
@@ -11,12 +11,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/visay/Chantrea.Training.git",
-                "reference": "220e5d6dac7d357cb2edc5d692f7a4341bb14695"
+                "reference": "2a958eb330d7ae1f745fc63a2a2bfea352753e9b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/visay/Chantrea.Training/zipball/220e5d6dac7d357cb2edc5d692f7a4341bb14695",
-                "reference": "220e5d6dac7d357cb2edc5d692f7a4341bb14695",
+                "url": "https://api.github.com/repos/visay/Chantrea.Training/zipball/2a958eb330d7ae1f745fc63a2a2bfea352753e9b",
+                "reference": "2a958eb330d7ae1f745fc63a2a2bfea352753e9b",
                 "shasum": ""
             },
             "require": {
@@ -51,20 +51,20 @@
             ],
             "description": "TYPO3 Flow application to suggest topic, vote and plan a training.",
             "homepage": "http://www.visay.info",
-            "time": "2013-07-19 17:37:55"
+            "time": "2013-07-25 06:52:26"
         },
         {
             "name": "composer/installers",
-            "version": "v1.0.4",
+            "version": "v1.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "v1.0.4"
+                "reference": "v1.0.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/v1.0.4",
-                "reference": "v1.0.4",
+                "url": "https://api.github.com/repos/composer/installers/zipball/v1.0.5",
+                "reference": "v1.0.5",
                 "shasum": ""
             },
             "replace": {
@@ -94,7 +94,7 @@
                 {
                     "name": "Kyle Robinson Young",
                     "email": "kyle@dontkry.com",
-                    "homepage": "http://dontkry.com",
+                    "homepage": "https://github.com/shama",
                     "role": "Developer"
                 }
             ],
@@ -123,7 +123,7 @@
                 "wordpress",
                 "zend"
             ],
-            "time": "2013-06-20 02:36:19"
+            "time": "2013-08-07 17:25:08"
         },
         {
             "name": "doctrine/common",
@@ -383,17 +383,17 @@
         },
         {
             "name": "symfony/console",
-            "version": "v2.3.2",
+            "version": "v2.3.3",
             "target-dir": "Symfony/Component/Console",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Console.git",
-                "reference": "v2.3.2"
+                "reference": "v2.3.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Console/zipball/v2.3.2",
-                "reference": "v2.3.2",
+                "url": "https://api.github.com/repos/symfony/Console/zipball/v2.3.3",
+                "reference": "v2.3.3",
                 "shasum": ""
             },
             "require": {
@@ -432,21 +432,21 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "http://symfony.com",
-            "time": "2013-07-11 19:36:36"
+            "time": "2013-07-21 12:12:18"
         },
         {
             "name": "symfony/dom-crawler",
-            "version": "v2.2.4",
+            "version": "v2.2.5",
             "target-dir": "Symfony/Component/DomCrawler",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/DomCrawler.git",
-                "reference": "v2.2.4"
+                "reference": "v2.2.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/DomCrawler/zipball/v2.2.4",
-                "reference": "v2.2.4",
+                "url": "https://api.github.com/repos/symfony/DomCrawler/zipball/v2.2.5",
+                "reference": "v2.2.5",
                 "shasum": ""
             },
             "require": {
@@ -489,17 +489,17 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v2.1.11",
+            "version": "v2.1.12",
             "target-dir": "Symfony/Component/Yaml",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Yaml.git",
-                "reference": "v2.1.11"
+                "reference": "v2.1.12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Yaml/zipball/v2.1.11",
-                "reference": "v2.1.11",
+                "url": "https://api.github.com/repos/symfony/Yaml/zipball/v2.1.12",
+                "reference": "v2.1.12",
                 "shasum": ""
             },
             "require": {
@@ -530,12 +530,36 @@
             "time": "2013-05-10 00:09:46"
         },
         {
+            "name": "typo3/eel",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git://git.typo3.org/Packages/TYPO3.Eel.git",
+                "reference": "1fc493523b4c2f1d2c5127eddc9aa89bf3b70207"
+            },
+            "require": {
+                "typo3/flow": "*"
+            },
+            "type": "typo3-flow-framework",
+            "autoload": {
+                "psr-0": {
+                    "TYPO3\\Eel": "Classes"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0+"
+            ],
+            "description": "The Embedded Expression Language (Eel) is a building block for creating Domain Specific Languages",
+            "time": "2013-08-09 13:50:51"
+        },
+        {
             "name": "typo3/flow",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/Packages/TYPO3.Flow.git",
-                "reference": "866a3a97afe1fdfaefa021b6f50a27203532da90"
+                "reference": "1c315deb84b13e88433659dd5a8a799bf50cbf2e"
             },
             "require": {
                 "composer/installers": "~1.0.2",
@@ -548,6 +572,7 @@
                 "php": ">=5.3.2",
                 "symfony/dom-crawler": "2.2.*",
                 "symfony/yaml": "2.1.*",
+                "typo3/eel": "*",
                 "typo3/fluid": "*",
                 "typo3/party": "*"
             },
@@ -566,7 +591,7 @@
             ],
             "description": "TYPO3 Flow Application Framework",
             "homepage": "http://flow.typo3.org",
-            "time": "2013-07-19 13:24:10"
+            "time": "2013-08-09 11:55:28"
         },
         {
             "name": "typo3/fluid",
@@ -574,7 +599,7 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/Packages/TYPO3.Fluid.git",
-                "reference": "27e6ebe6c40fac69acedf7692b470a7438a91cca"
+                "reference": "0cabe77c38f959c9b02f1063c579fe2d70722f4f"
             },
             "require": {
                 "typo3/flow": "*"
@@ -590,7 +615,7 @@
                 "LGPL-3.0+"
             ],
             "description": "Next-Generation Templating Framework for TYPO3 Flow and TYPO3 Neos, also backported to TYPO3 CMS",
-            "time": "2013-06-19 15:36:50"
+            "time": "2013-08-09 12:07:17"
         },
         {
             "name": "typo3/party",
@@ -649,7 +674,7 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/Packages/TYPO3.Twitter.Bootstrap.git",
-                "reference": "b3aec076249bfe1da6ec71a22caf13ee8b23ecfe"
+                "reference": "a2ae5bdf8787718b9309895c125550f4b861d337"
             },
             "require": {
                 "typo3/flow": "*"
@@ -662,7 +687,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "description": "Simple and flexible HTML, CSS, and Javascript for popular user interface components and interactions. Packaged for use with TYPO3 Flow",
-            "time": "2013-06-16 10:34:06"
+            "time": "2013-08-06 16:14:31"
         }
     ],
     "packages-dev": [
@@ -724,7 +749,7 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/Packages/TYPO3.Kickstart.git",
-                "reference": "4de1a56d356203540a0c8a1ef1f20b58fbee3dc8"
+                "reference": "923b8b4253b9dbccaed17d19ed174ad52a17ef29"
             },
             "require": {
                 "typo3/flow": "*"
@@ -740,7 +765,7 @@
                 "LGPL-3.0+"
             ],
             "description": "A simple generator for controller and views.",
-            "time": "2013-05-08 09:43:00"
+            "time": "2013-08-09 12:02:00"
         }
     ],
     "aliases": [
@@ -751,6 +776,7 @@
         "typo3/flow": 20,
         "typo3/fluid": 20,
         "typo3/party": 20,
+        "typo3/eel": 20,
         "doctrine/migrations": 20,
         "typo3/twitter-bootstrap": 20,
         "typo3/swiftmailer": 20,
