@@ -14,6 +14,7 @@
         "doctrine/migrations": "@dev",
         "typo3/twitter-bootstrap": "dev-master",
         "typo3/swiftmailer": "dev-master",
+        "typo3/ldap": "dev-master",
         "chantrea/training": "dev-master"
     },
     "require-dev": {
